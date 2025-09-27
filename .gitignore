@@ -1,0 +1,82 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pkl
+*.db
+
+# Virtual environments
+venv/
+.venv/
+env/
+.env/
+.env
+.env.json
+
+# FastAPI / Uvicorn / Gunicorn logs
+*.log
+*.pid
+
+# Local environment variables
+.env.local
+.env.*.local
+.envrc
+secrets/
+
+# Byte-compiled / optimized / DLL files
+*.so
+*.dll
+*.dylib
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+.mypy_cache/
+.pyre/
+.hypothesis/
+
+# IDE / Editor configs
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Alembic migrations cache
+alembic/versions/*.pyc
+alembic/__pycache__/
+
+# Databases (local dev)
+*.sqlite3
+*.db
+
+# Build / Distribution
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Celery / Redis cache
+celerybeat-schedule
+celerybeat.pid
+
+# Docker
+*.pid
+*.seed
+*.tar
+*.bak
+
+# Logs and temp files
+tmp/
+*.tmp
+*.bak
+*.old
+
+# Coverage reports
+coverage.xml
